@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+.galCon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
+    margin: 40px auto;
+    text-align: center;
+}
+.galHeading{
+    width: 50%;
+    margin: 20px auto;    
+    border-bottom: 2px solid #222;
+    padding-bottom: 20px ;
+    margin-bottom: 50px;
+}
+.galHeading h3{
+    font-size: 3em;
+    font-weight: bolder;
+}
+.galHeading h3 span{
+    font-weight: normal;
+}
+.galbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.galdream{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+
+}
+.galdream img{
+    width: 100%;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:760px){
+    .galdream{
+        width: 100%;
+    }
+    .galbox{
+        flex-direction: column;
+    }
+}
